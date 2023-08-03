@@ -1,0 +1,50 @@
+body {
+  font-family: roboto, sans-serif;
+}
+
+.header,
+.about,
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.about h2 {
+  font-size: 48px;
+}
+.about p {
+  font-size: 18px;
+  color: #E5E7EB
+}
+
+.the-doggos {
+  text-align: center;
+}
+.the-doggos h2 {
+  font-size: 36px;
+  color: #1F2937
+}
+.dog {
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+.quote .text {
+  font-size: 36px;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  color: white;
+}
+
+button {
+  color: white;
+  background-color: #3882F7;
+  border: 2px solid white;
+  border-radius: 5px;
+}
