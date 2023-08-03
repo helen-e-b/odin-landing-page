@@ -1,5 +1,7 @@
 body {
   font-family: roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .header,
@@ -11,10 +13,41 @@ body {
 
 .logo {
     border-radius: 50%;
-    width: 5em;
+    width: 4em;
     height: auto;
 }
-
+.header {
+    height: 60px;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right:30px;
+  }
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    text-decoration: none;
+    list-style: none;
+    padding: 30px;
+  }
+  
+  .about {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 0;
+  }
+  .container {
+    width: 450px;
+    height: 250px;
+  }
 .about h2 {
   font-size: 48px;
 }
@@ -24,17 +57,24 @@ body {
 }
 
 .group {
-    width: 35%;
+    width: 30%;
     height: auto;
 }
 
 .the-doggos {
   text-align: center;
+  flex: 1;
 }
 .the-doggos h2 {
   font-size: 36px;
   color: #1F2937
 }
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
 .dog {
   border: 5px solid #3882F6;
   border-radius: 10px;
@@ -46,6 +86,7 @@ body {
 .quote {
   background-color: #E5E7EB;
   color: #1F2937;
+  flex: 1;
 }
 .quote .text {
   font-size: 36px;
@@ -54,11 +95,18 @@ body {
 .sign-up {
   background-color: #3882F6;
   color: white;
+  flex: 0.75;
 }
-
 button {
   color: white;
   background-color: #3882F7;
   border: 2px solid white;
   border-radius: 5px;
 }
+
+.footer {
+    height: 60px;
+    flex-grow: 0;
+    line-height: 60px;
+    text-align: center;
+  }
