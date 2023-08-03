@@ -9,12 +9,23 @@ body {
   color: #F9FAF8;
 }
 
+.logo {
+    border-radius: 50%;
+    width: 5em;
+    height: auto;
+}
+
 .about h2 {
   font-size: 48px;
 }
 .about p {
   font-size: 18px;
   color: #E5E7EB
+}
+
+.group {
+    width: 35%;
+    height: auto;
 }
 
 .the-doggos {
@@ -25,8 +36,11 @@ body {
   color: #1F2937
 }
 .dog {
-  border: 3px solid #3882F6;
+  border: 5px solid #3882F6;
   border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .quote {
